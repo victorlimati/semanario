@@ -1,5 +1,5 @@
 // Semanário – service worker: deixa o app abrir mesmo sem internet.
-const CACHE = "semanario-v2";
+const CACHE = "semanario-v3";
 const SHELL = ["./", "./index.html", "./firebase-config.js", "./manifest.json", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", e => {
