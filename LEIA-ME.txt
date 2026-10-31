@@ -1,0 +1,20 @@
+SEMANÁRIO – app de planejamento semanal (com sincronização)
+
+Arquivos:
+  index.html          o app
+  firebase-config.js  PREENCHER com os dados do seu projeto Firebase
+  firestore.rules     regras de segurança (copiar para o console do Firebase)
+  manifest.json       nome, cores e ícone do app
+  sw.js               permite abrir o app sem internet
+  icons/              ícones
+
+Resumo da configuração:
+  1. Firebase: criar projeto, registrar app web, ativar login Google,
+     criar Firestore e colar as regras de firestore.rules.
+  2. Colar o firebaseConfig em firebase-config.js.
+  3. Autorizar o domínio SEU-USUARIO.github.io em Authentication > Settings.
+  4. Enviar todos os arquivos ao GitHub Pages.
+  5. Abrir o endereço https, clicar em "Entrar para sincronizar" e instalar.
+
+Sem login, o app continua funcionando só com dados locais.
+No primeiro login, o que já existe neste computador é enviado para a nuvem.
